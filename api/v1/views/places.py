@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-A script that start Flask
-Flask route that returns json status response
+"""A script that start FlaskFlask route that returns json status response
 """
 from api.v1.views import app_views
 from flask import abort, jsonify, request
